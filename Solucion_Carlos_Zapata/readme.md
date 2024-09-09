@@ -28,8 +28,8 @@ Sal de `nano` presionando `Ctrl + X`.
 
 Para compilar el archivo `reverse.c`, ejecuta el siguiente comando en la terminal:
 
-```bash
-gcc -o reverse reverse.c
+   ```bash
+    gcc -o reverse reverse.c
 Esto generará un archivo ejecutable llamado `reverse`.
 
 ### 3. Ejecutar el programa
