@@ -24,92 +24,140 @@ Guarda el archivo presionando `Ctrl + O` y luego presiona `Enter`.
 
 Sal de `nano` presionando `Ctrl + X`.
 
-### 2. Compilar el programa
+\### 2. Compilar el programa
 
 Para compilar el archivo `reverse.c`, ejecuta el siguiente comando en la terminal:
 
-   ```bash
-    gcc -o reverse reverse.c
+\```bash
+
+gcc -o reverse reverse.c
+
 Esto generará un archivo ejecutable llamado `reverse`.
 
-### 3. Ejecutar el programa
+\### 3. Ejecutar el programa
 
 El programa puede ejecutarse de tres maneras diferentes:
 
-#### 3.1. Sin argumentos (entrada manual)
+\#### 3.1. Sin argumentos (entrada manual)
 
 Si ejecutas el programa sin argumentos, leerá las líneas que ingreses en la terminal y las imprimirá en orden inverso. Para ejecutar el programa de esta manera:
 
-```bash
+\```bash
+
 ./reverse
+
 Escribe algunas líneas de texto, por ejemplo:
 
 Copiar código
+
 Hola
+
 Mundo
+
 Prueba
+
 Después de escribir las líneas, presiona Ctrl + D para finalizar la entrada. El programa imprimirá las líneas en orden inverso:
 
 Copiar código
+
 Prueba
+
 Mundo
+
 Hola
-3.2. Con un archivo de entrada
+
+3\.2. Con un archivo de entrada
+
 Puedes ejecutar el programa especificando un archivo de entrada. El programa leerá el archivo y mostrará las líneas en orden inverso en la terminal. Para ello, crea un archivo llamado input.txt (puedes usar nano):
 
 bash
+
 Copiar código
+
 nano input.txt
+
 Escribe algunas líneas en el archivo:
 
 Copiar código
+
 Línea 1
+
 Línea 2
+
 Línea 3
+
 Guarda y cierra el archivo. Luego ejecuta el programa con el archivo de entrada:
 
 bash
+
 Copiar código
+
 ./reverse input.txt
+
 El programa imprimirá el contenido del archivo en orden inverso:
 
 Copiar código
+
 Línea 3
+
 Línea 2
+
 Línea 1
-3.3. Con un archivo de entrada y un archivo de salida
+
+3\.3. Con un archivo de entrada y un archivo de salida
+
 Si deseas que el resultado se guarde en un archivo de salida, especifica tanto el archivo de entrada como el de salida:
 
 bash
+
 Copiar código
+
 ./reverse input.txt salida.txt
+
 El programa leerá el contenido de input.txt y lo guardará en salida.txt en orden inverso. Para ver el contenido del archivo de salida, usa:
 
 bash
+
 Copiar código
+
 cat salida.txt
+
 El resultado será:
 
 Copiar código
+
 Línea 3
+
 Línea 2
+
 Línea 1
-4. Errores comunes
+
+4\. Errores comunes
+
 Si el archivo de entrada y salida son el mismo, el programa devolverá un error:
 
 javascript
+
 Copiar código
+
 Error: el archivo de entrada y salida deben ser diferentes
+
 Si no se puede abrir el archivo de entrada, se mostrará:
 
 javascript
-Copiar código
-Error: no se puede abrir el archivo 'input.txt'
-Requisitos
-Tener instalado un compilador de C, como gcc.
-Acceso a la terminal de Linux o similar.
-Contribución
-Si quieres contribuir a este proyecto, puedes hacer un fork del repositorio, realizar cambios y enviar un pull request.
 
+Copiar código
+
+Error: no se puede abrir el archivo 'input.txt'
+
+Requisitos
+
+Tener instalado un compilador de C, como gcc.
+
+Acceso a la terminal de Linux o similar.
+
+Contribución
+
+Si quieres contribuir a este proyecto, puedes hacer un fork del repositorio, realizar cambios y enviar un pull request.
 
 
