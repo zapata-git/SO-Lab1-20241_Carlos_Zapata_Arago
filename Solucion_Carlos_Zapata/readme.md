@@ -24,7 +24,7 @@ Guarda el archivo presionando `Ctrl + O` y luego presiona `Enter`.
 
 Sal de `nano` presionando `Ctrl + X`.
 
-\### 2. Compilar el programa
+### 2. Compilar el programa
 
 Para compilar el archivo `reverse.c`, ejecuta el siguiente comando en la terminal:
 
@@ -34,17 +34,17 @@ gcc -o reverse reverse.c
 
 Esto generará un archivo ejecutable llamado `reverse`.
 
-\### 3. Ejecutar el programa
+### 3. Ejecutar el programa
 
 El programa puede ejecutarse de tres maneras diferentes:
 
-\#### 3.1. Sin argumentos (entrada manual)
+#### 3.1. Sin argumentos (entrada manual)
 
 Si ejecutas el programa sin argumentos, leerá las líneas que ingreses en la terminal y las imprimirá en orden inverso. Para ejecutar el programa de esta manera:
 
-\```bash
+```bash
 
-./reverse
+ ./reverse
 
 Escribe algunas líneas de texto, por ejemplo:
 
@@ -65,8 +65,7 @@ Prueba
 Mundo
 
 Hola
-
-3\.2. Con un archivo de entrada
+3.2. Con un archivo de entrada
 
 Puedes ejecutar el programa especificando un archivo de entrada. El programa leerá el archivo y mostrará las líneas en orden inverso en la terminal. Para ello, crea un archivo llamado input.txt (puedes usar nano):
 
