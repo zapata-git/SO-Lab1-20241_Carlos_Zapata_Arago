@@ -30,10 +30,6 @@ Para compilar el archivo `reverse.c`, ejecuta el siguiente comando en la termina
 
 ```bash
 gcc -o reverse reverse.c
-
-
-
-
 Esto generará un archivo ejecutable llamado `reverse`.
 
 ### 3. Ejecutar el programa
