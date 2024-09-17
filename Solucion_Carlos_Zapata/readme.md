@@ -38,31 +38,7 @@ Esto generará un archivo ejecutable llamado `reverse`.
 
 El programa puede ejecutarse de tres maneras diferentes:
 
-#### 3.1. Sin argumentos (entrada manual)
 
-Si ejecutas el programa sin argumentos, leerá las líneas que ingreses en la terminal y las imprimirá en orden inverso. Para ejecutar el programa de esta manera:
-
-```bash ./reverse
-
-Escribe algunas líneas de texto, por ejemplo:
-
-Copiar código
-
-Hola
-
-Mundo
-
-Prueba
-
-Después de escribir las líneas, presiona Ctrl + D para finalizar la entrada. El programa imprimirá las líneas en orden inverso:
-
-Copiar código
-
-Prueba
-
-Mundo
-
-Hola
 #### 3.2. Con un archivo de entrada
 
 Puedes ejecutar el programa especificando un archivo de entrada. El programa leerá el archivo y mostrará las líneas en orden inverso en la terminal. Para ello, crea un archivo llamado input.txt (puedes usar nano):
