@@ -40,7 +40,7 @@ El programa puede ejecutarse de tres maneras diferentes:
 
 #### 3.1. Sin argumentos (entrada manual)
 
-    Si ejecutas el programa sin argumentos, leerá las líneas que ingreses en la terminal y las imprimirá en orden inverso. Para ejecutar el programa de esta manera:
+Si ejecutas el programa sin argumentos, leerá las líneas que ingreses en la terminal y las imprimirá en orden inverso. Para ejecutar el programa de esta manera:
 
 ```bash
 
