@@ -43,8 +43,7 @@ El programa puede ejecutarse de tres maneras diferentes:
 Si ejecutas el programa sin argumentos, leerá las líneas que ingreses en la terminal y las imprimirá en orden inverso. Para ejecutar el programa de esta manera:
 
 ```bash
-
-  ./reverse
+./reverse
 
 Escribe algunas líneas de texto, por ejemplo:
 
