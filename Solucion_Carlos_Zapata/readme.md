@@ -40,11 +40,11 @@ El programa puede ejecutarse de tres maneras diferentes:
 
 #### 3.1. Sin argumentos (entrada manual)
 
-Si ejecutas el programa sin argumentos, leerá las líneas que ingreses en la terminal y las imprimirá en orden inverso. Para ejecutar el programa de esta manera:
+    Si ejecutas el programa sin argumentos, leerá las líneas que ingreses en la terminal y las imprimirá en orden inverso. Para ejecutar el programa de esta manera:
 
 ```bash
 
- ./reverse
+  ./reverse
 
 Escribe algunas líneas de texto, por ejemplo:
 
@@ -65,7 +65,7 @@ Prueba
 Mundo
 
 Hola
-3.2. Con un archivo de entrada
+#### 3.2. Con un archivo de entrada
 
 Puedes ejecutar el programa especificando un archivo de entrada. El programa leerá el archivo y mostrará las líneas en orden inverso en la terminal. Para ello, crea un archivo llamado input.txt (puedes usar nano):
 
@@ -103,7 +103,7 @@ Línea 2
 
 Línea 1
 
-3\.3. Con un archivo de entrada y un archivo de salida
+#### 3.3 Con un archivo de entrada y un archivo de salida
 
 Si deseas que el resultado se guarde en un archivo de salida, especifica tanto el archivo de entrada como el de salida:
 
@@ -131,7 +131,7 @@ Línea 2
 
 Línea 1
 
-4\. Errores comunes
+#### 4. Errores comunes
 
 Si el archivo de entrada y salida son el mismo, el programa devolverá un error:
 
